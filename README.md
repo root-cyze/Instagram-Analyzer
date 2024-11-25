@@ -30,13 +30,16 @@ This project is a Python-based tool that helps you find users on Instagram whom 
 
 1. Run the script:
 
-   ```bash
+   ```
+   cd Instagram-Follower-Analyzer
+   ```
+   ```
    python main.py
    ```
 
-2. Enter your Instagram username when prompted.
+3. Enter your Instagram username when prompted.
 
-3. The script will output a list of users that you follow but do not follow you back.
+4. The script will output a list of users that you follow but do not follow you back.
 
 ## API Rate Limits
 
