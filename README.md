@@ -16,7 +16,7 @@ This project is a Python-based tool that helps you find users on Instagram whom 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/archescyber/instagram-follower-analyzer
+   git clone https://github.com/archescyber/Instagram-Follower-Analyzer
    ```
 
 2. Install the required dependencies.
