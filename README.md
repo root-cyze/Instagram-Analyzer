@@ -1,4 +1,4 @@
-# Instagram Follower Analyzer
+# Instagram Master Analyzer
 
 ## Vısual 
 
