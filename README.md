@@ -65,7 +65,7 @@ Once you have installed the dependencies, you can run the script using the follo
 
 **Example:**
 
-python master.py your_username your_password --start_user start_username --end_user end_username --file_format csv --sleep_time 15
+`python master.py your_username your_password --start_user start_username --end_user end_username --file_format csv --sleep_time 15`
 
 Output:
 
