@@ -1,5 +1,10 @@
 # Instagram Follower Analyzer
 
+## Vısual 
+
+![Screenshot_2024-12-19-19-31-34-984_com termux-edit](https://github.com/user-attachments/assets/57d54de4-244c-4153-879d-a99e27e84a50)
+
+
 ## Description
 
 This project is a Python-based tool that helps you find users on Instagram whom you follow, but they do not follow you back. It utilizes Instagram's API to fetch and compare your followers and following lists.
