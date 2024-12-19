@@ -1,66 +1,88 @@
+# Vısual
+
+![Screenshot_2024-12-19-19-31-34-984_com termux-edit~2](https://github.com/user-attachments/assets/3bb63a80-001b-4547-ae2b-ea6f29e048c5)
+
+
 # Instagram Master Analyzer
 
-## Vısual 
-
-![Screenshot_2024-12-19-19-31-34-984_com termux-edit](https://github.com/user-attachments/assets/57d54de4-244c-4153-879d-a99e27e84a50)
-
-
-## Description
-
-This project is a Python-based tool that helps you find users on Instagram whom you follow, but they do not follow you back. It utilizes Instagram's API to fetch and compare your followers and following lists.
+Instagram Master Analyzer is a Python tool designed to analyze Instagram users' followers and followees. This tool helps users identify people who are not following them back. It uses the `instaloader` library to gather Instagram data and saves the analysis results in `.txt` or `.csv` formats.
 
 ## Features
 
-- Fetches your list of followers and following on Instagram.
-- Compares the two lists to identify users who don't follow you back.
-- User-friendly output displaying the results.
-- Handles Instagram API limits and provides guidance on managing API calls effectively.
+- **Analyze your followers and followees:** Easily identify users who do not follow you back.
+- **Start and end user filtering:** You can specify a range of users to analyze.
+- **Output formats:** Save the results in `.txt` or `.csv` format.
+- **API limit handling:** The script includes wait times to avoid hitting Instagram's API limits.
 
 ## Installation
 
-1. Clone the repository:
+To use this tool, you need to have Python 3.x installed along with the necessary libraries.
 
-   ```bash
-   git clone https://github.com/archescyber/Instagram-Follower-Analyzer
-   ```
+### 1. Install Python
 
-2. Install the required dependencies.
+You can download and install Python from the official [Python website](https://www.python.org/downloads/).
 
-3. Set up your Instagram API credentials:
-   - Create an Instagram developer account and register your app.
-   - Get your **Access Token** and **Client ID**.
-   - Store these credentials in a `.env` file in the root directory.
+### 2. Install Required Libraries
 
+To install the required libraries, run the following command:
+
+```
+pip install instaloader
+```
 ## Usage
 
-1. Run the script:
+1. Clone the Repository
 
-   ```
-   cd Instagram-Follower-Analyzer
-   ```
-   ```
-   python main.py
-   ```
+You can clone the repository from GitHub:
 
-3. Enter your Instagram username when prompted.
+```
+git clone https://github.com/archescyber/instagram-master-analyzer.git
+```
+```
+cd instagram-master-analyzer
+```
 
-4. The script will output a list of users that you follow but do not follow you back.
+2. Run the Script
 
-## API Rate Limits
+Once you have installed the dependencies, you can run the script using the following command:
 
-Instagram API has certain rate limits you need to be aware of:
+python instagram_master_analyzer.py <your_username> <your_password> [--start_user <start_username>] [--end_user <end_username>] [--file_format <txt/csv>] [--sleep_time <seconds>]
 
-- **Basic Instagram API Rate Limits:**
-  - **200 GET requests per hour** for user-related data (such as followers, following).
+## Arguments:
 
-  Be cautious with frequent API requests as exceeding the limit can result in temporary suspension of API access. It’s recommended to add delays between API calls or use batch requests to stay within the limit.
+your_username: Your Instagram username.
 
-- If your app frequently exceeds rate limits, you may consider:
-  - Caching API responses locally.
-  - Spreading requests over a longer time frame.
-  - Upgrading your API access if necessary.
+your_password: Your Instagram password.
 
-## Contribution
+--start_user: The username to start analyzing (optional).
 
-Feel free to contribute to the project by submitting issues or pull requests. All contributions are welcome!   
+--end_user: The username to end analyzing (optional).
 
+--file_format: The format to save the results (txt or csv). Default is txt.
+
+--sleep_time: Time to wait (in seconds) to avoid hitting Instagram API limits. Default is 10 seconds.
+
+
+Example:
+
+python instagram_master_analyzer.py your_username your_password --start_user start_username --end_user end_username --file_format csv --sleep_time 15
+
+Output:
+
+The tool will analyze the followers and followees, and then save the list of users who do not follow you back in the specified file format (txt or csv). You will see a message indicating where the results are saved.
+
+Contributing:
+
+If you'd like to contribute to this project, feel free to fork the repository, make changes, and create a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
+## Disclaimer
+
+This tool is for educational purposes only. Use it responsibly and ensure you comply with Instagram's Terms of Service.
+
+This README provides a general overview of the project, installation instructions, usage, and other essential information for users and contributors.
