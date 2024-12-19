@@ -46,24 +46,24 @@ cd instagram-master-analyzer
 
 Once you have installed the dependencies, you can run the script using the following command:
 
-python instagram_master_analyzer.py <your_username> <your_password> [--start_user <start_username>] [--end_user <end_username>] [--file_format <txt/csv>] [--sleep_time <seconds>]
+`python instagram_master_analyzer.py <your_username> <your_password> [--start_user <start_username>] [--end_user <end_username>] [--file_format <txt/csv>] [--sleep_time <seconds>]`
 
 ## Arguments:
 
-your_username: Your Instagram username.
+`your_username: Your Instagram username.`
 
-your_password: Your Instagram password.
+`your_password: Your Instagram password.`
 
---start_user: The username to start analyzing (optional).
+`--start_user: The username to start analyzing (optional).`
 
---end_user: The username to end analyzing (optional).
+`--end_user: The username to end analyzing (optional).`
 
---file_format: The format to save the results (txt or csv). Default is txt.
+`--file_format: The format to save the results (txt or csv). Default is txt.`
 
---sleep_time: Time to wait (in seconds) to avoid hitting Instagram API limits. Default is 10 seconds.
+`--sleep_time: Time to wait (in seconds) to avoid hitting Instagram API limits. Default is 10 seconds.`
 
 
-Example:
+**Example:**
 
 python instagram_master_analyzer.py your_username your_password --start_user start_username --end_user end_username --file_format csv --sleep_time 15
 
