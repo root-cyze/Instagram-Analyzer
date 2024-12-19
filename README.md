@@ -46,7 +46,7 @@ cd instagram-master-analyzer
 
 Once you have installed the dependencies, you can run the script using the following command:
 
-`python instagram_master_analyzer.py <your_username> <your_password> [--start_user <start_username>] [--end_user <end_username>] [--file_format <txt/csv>] [--sleep_time <seconds>]`
+`python master.py <your_username> <your_password> [--start_user <start_username>] [--end_user <end_username>] [--file_format <txt/csv>] [--sleep_time <seconds>]`
 
 ## Arguments:
 
