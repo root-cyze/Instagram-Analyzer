@@ -36,7 +36,7 @@ pip install instaloader
 You can clone the repository from GitHub:
 
 ```
-git clone https://github.com/archescyber/instagram-master-analyzer.git
+git clone https://github.com/cyze-afresh/instagram-master-analyzer.git
 ```
 ```
 cd instagram-master-analyzer
