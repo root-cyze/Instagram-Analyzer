@@ -1,6 +1,6 @@
 # Vısual
 
-![Screenshot_2024-12-19-19-31-34-984_com termux-edit~2](https://github.com/user-attachments/assets/3bb63a80-001b-4547-ae2b-ea6f29e048c5)
+![IMG_20250511_095901](https://github.com/user-attachments/assets/438ef626-9fbf-489d-ab38-c17aa2e2ba9d)
 
 
 # Instagram Master Analyzer
