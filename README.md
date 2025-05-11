@@ -1,7 +1,5 @@
 
 # Instagram Analyzer Tool
-
-![Instagram Analyzer Banner]
 ![IMG_20250511_095901](https://github.com/user-attachments/assets/17e101bc-f82f-4496-adbd-f113aac437e5)
 
 
