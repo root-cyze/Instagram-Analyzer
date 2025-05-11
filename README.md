@@ -1,88 +1,100 @@
-# Vısual
 
-![IMG_20250511_095901](https://github.com/user-attachments/assets/438ef626-9fbf-489d-ab38-c17aa2e2ba9d)
+# Instagram Analyzer Tool
+
+![Instagram Analyzer Banner]
+![IMG_20250511_095901](https://github.com/user-attachments/assets/17e101bc-f82f-4496-adbd-f113aac437e5)
 
 
-# Instagram Master Analyzer
+## Very Important
 
-Instagram Master Analyzer is a Python tool designed to analyze Instagram users' followers and followees. This tool helps users identify people who are not following them back. It uses the `instaloader` library to gather Instagram data and saves the analysis results in `.txt` or `.csv` formats.
+> **Ensure that you use this tool responsibly and within legal boundaries. Unauthorized access or misuse of Instagram accounts can lead to account bans or legal consequences.**
+
+---
+
+## Description
+
+**Instagram Analyzer Tool** is a Python-based tool designed for analyzing Instagram profiles. This tool can fetch a user's followers, following list, and display key statistics, such as mutual followers, users who do not follow you back, and more. It's intended for educational purposes and ethical use only.
+
+---
 
 ## Features
 
-- **Analyze your followers and followees:** Easily identify users who do not follow you back.
-- **Start and end user filtering:** You can specify a range of users to analyze.
-- **Output formats:** Save the results in `.txt` or `.csv` format.
-- **API limit handling:** The script includes wait times to avoid hitting Instagram's API limits.
+- Fetch and display Instagram profile information.
+- Analyze followers and following list.
+- Identify users who do not follow you back.
+- Display mutual followers statistics.
+- Export results to TXT and CSV formats.
+- Simple and mobile-friendly interface.
+- Proxy support for secure operations.
+
+---
 
 ## Installation
 
-To use this tool, you need to have Python 3.x installed along with the necessary libraries.
+1. Clone the repository
 
-### 1. Install Python
-
-You can download and install Python from the official [Python website](https://www.python.org/downloads/).
-
-### 2. Install Required Libraries
-
-To install the required libraries, run the following command:
-
-```
-pip install instaloader
-```
-## Usage
-
-1. Clone the Repository
-
-You can clone the repository from GitHub:
-
-```
-git clone https://github.com/cyze-afresh/instagram-master-analyzer.git
+```bash
+git clone https://github.com/root-cyze/Instagram-Analyzer
 ```
 ```
-cd instagram-master-analyzer
+cd Instagram-Analyzer
 ```
 
-2. Run the Script
-
-Once you have installed the dependencies, you can run the script using the following command:
-
-`python master.py <your_username> <your_password> [--start_user <start_username>] [--end_user <end_username>] [--file_format <txt/csv>] [--sleep_time <seconds>]`
-
-## Arguments:
-
-`your_username: Your Instagram username.`
-
-`your_password: Your Instagram password.`
-
-`--start_user: The username to start analyzing (optional).`
-
-`--end_user: The username to end analyzing (optional).`
-
-`--file_format: The format to save the results (txt or csv). Default is txt.`
-
-`--sleep_time: Time to wait (in seconds) to avoid hitting Instagram API limits. Default is 10 seconds.`
+2. Install required libraries
 
 
-**Example:**
+```
+pip install -r requirements.txt
+```
 
-`python master.py your_username your_password --start_user start_username --end_user end_username --file_format csv --sleep_time 15`
-
-Output:
-
-The tool will analyze the followers and followees, and then save the list of users who do not follow you back in the specified file format (txt or csv). You will see a message indicating where the results are saved.
-
-Contributing:
-
-If you'd like to contribute to this project, feel free to fork the repository, make changes, and create a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+> Ensure that your Python version is 3.8 or above.
 
 
 
-## Disclaimer
+3. Set up your proxy (Optional)
 
-This tool is for educational purposes only. Use it responsibly and ensure you comply with Instagram's Terms of Service.
 
-This README provides a general overview of the project, installation instructions, usage, and other essential information for users and contributors.
+
+If you're concerned about rate-limiting or potential bans, configure your proxy in the script or configuration file.
+
+
+---
+
+Usage
+
+1. Prepare your environment:
+
+Add your Instagram username and password (securely) when prompted.
+
+If needed, configure your proxy settings.
+
+
+
+2. Run the tool:
+
+```
+python instagram_analyzer.py
+````
+3. Monitor the output to view the analysis of the target account, including statistics on followers, following, mutuals, and users who do not follow you back.
+
+
+
+
+---
+
+# File Structure
+
+├── instagram_analyzer.py   
+├── requirements.txt       
+└── README.md
+
+
+---
+
+# License & Legal
+
+This tool is intended for educational purposes and authorized testing only. Please use it responsibly.
+
+Do not use this tool to analyze accounts you do not own or have permission to access. Violating Instagram's Terms of Service can result in account suspension or legal consequences.
+
+Unauthorized redistribution of this tool is prohibited. All rights reserved to Cyze.
