@@ -1,6 +1,7 @@
 
 # Instagram Analyzer Tool
-![IMG_20250511_101929](https://github.com/user-attachments/assets/a1449787-bfaf-428f-9d28-923c9612c0e5)
+![IMG_20250511_104612](https://github.com/user-attachments/assets/9a9940d1-6ffe-41e2-a592-694c35aed7ce)
+
 
 
 ## Very Important
